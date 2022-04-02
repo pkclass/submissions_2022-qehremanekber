@@ -3,9 +3,8 @@ import scrapy
 
 class Musicians(scrapy.Item):
     name        = scrapy.Field()
-    birth       = scrapy.Field()
-    death       = scrapy.Field()
-    nationality = scrapy.Field()
+    years       = scrapy.Field()
+ 
 
 class LinksSpider(scrapy.Spider):
     name = 'musicians'
