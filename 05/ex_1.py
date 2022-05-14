@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as BS
 import re
 import pandas as pd
 
-url = 'https://en.wikipedia.org/wiki/Lists_of_musicians' 
+url = 'https://en.wikipedia.org/wiki/Lists_of_musicians'
 html = request.urlopen(url)
 bs = BS(html.read(), 'html.parser')
 
